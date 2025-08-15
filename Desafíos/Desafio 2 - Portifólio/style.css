@@ -42,7 +42,7 @@ ul#ulnav {
 }
 
 li {
-    margin-left: 15px;
+    margin-left: 30px;
 }
 
 
@@ -111,3 +111,20 @@ div {
     padding: 30px;
 }
 
+#contatos {
+    background-color: var(--cor6);
+    padding: 8px;
+    border: solid var(--cor5);
+}
+
+#pc {
+    text-align:start;
+    padding: 5px;
+}
+
+#rpli {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    padding: 5px;
+}
