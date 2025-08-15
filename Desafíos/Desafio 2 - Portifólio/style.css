@@ -1,130 +1,127 @@
 @charset "UTF-8";
 
 * {
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 :root {
-    --cor1: #FFFFFF; /* branco - textos ou fundo claro */
-    --cor2: #000000; /* preto - textos ou fundo escuro */
-    --cor3: #6ED148; /* verde claro da logo */
-    --cor4: #00af00; /* verde médio da logo */
-    --cor5: #245B18; /* verde escuro da logo */
-    --cor6: #1B3A0F; /* verde bem escuro para fundo */
+  --cor1: #ffffff; /* branco - textos ou fundo claro */
+  --cor2: #000000; /* preto - textos ou fundo escuro */
+  --cor3: #6ed148; /* verde claro da logo */
+  --cor4: #00af00; /* verde médio da logo */
+  --cor5: #245b18; /* verde escuro da logo */
+  --cor6: #1b3a0f; /* verde bem escuro para fundo */
 }
 
-
-
 body {
-    background-color: var(--cor2);
-    border: solid var(--cor4);
+  background-color: var(--cor2);
+  border: solid var(--cor4);
 }
 
 nav {
-    display: flex;
-    justify-content: space-between; /* separa logo e menu */
-    align-items: center;
-    padding: 0 20px;
-    border: solid #00af00;
-    border-radius: 10px;
-    margin: 5px 5px 20px 5px;
-    background-color: rgb(8, 21, 12);
+  display: flex;
+  justify-content: space-between; /* separa logo e menu */
+  align-items: center;
+  padding: 0 20px;
+  border: solid #00af00;
+  border-radius: 10px;
+  margin: 5px 5px 20px 5px;
+  background-color: rgb(8, 21, 12);
 }
 
 ul#ulnav {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 li {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
-
 nav > #imgnav {
-    width: 30px;
-    margin: 10px 0px 10px 0px;
-    border: solid var(--cor3);
-    border-radius: 50px;
-    box-shadow: 0px 0px 10px var(--cor2);
+  width: 30px;
+  margin: 10px 0px 10px 0px;
+  border: solid var(--cor3);
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px var(--cor2);
 }
 
 li > a {
-    text-decoration: none;
-    color: var(--cor3);
-    text-shadow: 0px 0px 10px white;
+  text-decoration: none;
+  color: var(--cor3);
+  text-shadow: 0px 0px 10px white;
 }
 
 #imgheader {
-    width: 100px;
-    border: solid var(--cor4);
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
+  width: 100px;
+  border: solid var(--cor4);
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 h1 {
-    margin-top: 20px;
-    text-align: center;
+  margin-top: 20px;
+  text-align: center;
 }
 
 span {
-    color: var(--cor4);
-    text-shadow: 0px 0px 10px var(--cor3);
+  color: var(--cor4);
+  text-shadow: 0px 0px 10px var(--cor3);
 }
 
 header > p {
-    margin: 20px;
-    text-align: center;
+  margin: 20px;
+  text-align: center;
 }
 
 main {
-    margin-top: 60px;
-    margin-bottom: 60px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 h2 {
-    color: var(--cor4);
-    text-align: center;
-    text-decoration: underline var(--cor1);
+  color: var(--cor4);
+  text-align: center;
+  text-decoration: underline var(--cor1);
 }
 
 #projetos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    justify-content: center;
-    margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px;
 }
 
 div {
-    color: var(--cor6);
-    background-color: var(--cor3);
-    border: solid var(--cor6);
-    border-radius: 10px;
-    text-align: center;
-    padding: 30px;
+  color: var(--cor6);
+  background-color: var(--cor3);
+  border: solid var(--cor6);
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px;
 }
 
 #contatos {
-    background-color: var(--cor6);
-    padding: 8px;
-    border: solid var(--cor5);
+  background-color: var(--cor6);
+  padding: 8px;
+  border: solid var(--cor5);
 }
 
 #pc {
-    text-align:start;
-    padding: 5px;
+  text-align: start;
+  padding: 5px;
 }
 
 #rpli {
-    display: flex;
-    list-style: none;
-    justify-content: end;
-    padding: 5px;
+  display: flex;
+  list-style: none;
+  justify-content: end;
+  padding: 5px;
 }
